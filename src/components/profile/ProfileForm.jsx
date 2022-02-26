@@ -132,7 +132,7 @@ export default function ProfileForm() {
             <FormLabel>Tech Preference</FormLabel>
             <RadioGroup
               name="techPref"
-              value={profile.gender}
+              value={profile.techPref}
               onChange={setTechPref}
               row
             >
